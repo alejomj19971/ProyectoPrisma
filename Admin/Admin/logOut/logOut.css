@@ -1,0 +1,129 @@
+.logOut_body{
+    background-color: #FFD000;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.logOut_container{
+    width: 100vh;
+    height:64vh;
+    margin: 0 auto;
+    margin-top: 18vh;
+    margin-left: 35vw;
+    
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 25px 0px #FFFFFF;
+    
+}
+
+
+.logOut_navBar_container{
+    background-color: #62676A;
+    height: 10vh;
+    display: flex;
+    padding-bottom: 3vh;
+ 
+    
+    
+   
+
+    
+    
+}
+
+.logOut_navBar_btn_guardar{
+    width: 9vh;
+    height: 9vh;
+    margin-right: 55vh;
+    margin-left:5vh;
+ 
+
+}
+
+.logOut_navBar_btn_cancelar{
+    width: 7vh;
+    height: 7vh;
+    margin-bottom:1vh ;
+
+    
+ 
+}
+
+
+
+.logOut_btn{
+    background-color: #000000;
+    padding: 2vh 2vh 3vh 3vh;
+    color:#FFFFFF;
+    border: solid 2px #FFD000;
+    margin:  auto;
+    margin-top: 25vh;
+    height: 8vh;
+    width: 55vh;
+    font-size: 3vh;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 20vh;
+   
+    
+}
+
+/* navbar*/
+/* incluir estas clases en las hojas de estilos donde se va colocar el navegador*/
+
+.nav_admin_container{
+    background-color:#000000;
+    width: 37vh;
+    margin: 0;
+    top:0;
+    left: 0;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction:column;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+   
+}
+
+.nav_admin_i{
+    color: #ffff;
+    display: block;
+    
+    margin-top: 4vh;
+    
+  
+   
+}
+
+.nav_admin_link{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.nav_admin_ul{
+    margin-top: 13vh;
+   
+    margin-right: 3vh;
+ 
+}
+
+.nav_admin_logo{
+    height: 19vh;
+    width: 23vh;
+    margin:0 auto;
+    margin-top: 4vh;
+   
+    padding: 1vh;
+    
+    border: solid 2px #FFD000;
+}
+

@@ -1,0 +1,205 @@
+.flex-container{
+    width: 65vw;
+    height: 100vh;
+    display: flex;
+    margin-left: 30vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-body{
+    background-color: #FFD000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list_product_item1{
+    background-image:url('/public/images/ALIMENTOS/Hamburguesas/FOTO\ H\ \(1\).jpg');
+    background-size: 260px 500px;
+    width: 260px;
+    height: 500px;
+    box-shadow: 5px 8px 0px #CBCAC9;
+}
+
+.list_product_item2{
+    background-image:url('/public/images/ALIMENTOS/Helados/FOTO\ HEL\ \(2\).jpg');
+    background-size: 260px 500px;
+    width: 260px;
+    height: 500px;
+    box-shadow: 5px 8px 0px #CBCAC9;
+}
+
+.list_product_item3{
+    background-image:url('/public/images/ALIMENTOS/Bebidas/CERV\ \(1\).jpg');
+    background-size:110% 100%;
+    width: 260px;
+    height: 500px;
+    box-shadow: 5px 8px 0px #CBCAC9;
+}
+
+.list_item_titles1{
+    background-color: #cbcac96c;
+  
+    color: #FFFFFF;
+    text-shadow:1px 1px 1px #000000;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    border: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 300;
+    
+
+}
+
+.list_item_titles2{
+    background-color: #cbcac96c;
+   
+    color: #FFFFFF;
+    text-shadow:1px 1px 0px #000000;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    border: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 300;
+
+
+}
+
+
+.list_item_titles3{
+    background-color: #cbcac96c;
+    color: #FFFFFF;
+    text-shadow:1px 1px 1px #000000;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    border: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 300;
+   
+
+}
+
+.list_btn{
+    margin-top: 385px;
+    background-color: #cbcac95f;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_edit{
+    width:40px ;
+    height:40px ;
+    
+}
+
+.btn_delete{
+    width:40px ;
+    height:40px ;
+    margin-right: 10px;
+    
+}
+
+
+.list_item_new_product{
+    
+    background-color: #0000004c;
+    color: #FFFFFF;
+    width: 220px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-right:54vw;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 300;
+
+}
+.list_item_link{
+    color: #FFFFFF;
+}
+
+
+
+
+
+.nav_admin_container{
+    background-color:#000000;
+    width: 37vh;
+    margin: 0;
+    top:0;
+    left: 0;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction:column;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+   
+
+}
+
+.nav_admin_i{
+    color: #ffff;
+    display: block;
+    
+    margin-top: 4vh;
+    
+  
+   
+}
+
+.nav_admin_link{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.nav_admin_ul{
+    margin-top: 13vh;
+   
+    margin-right: 3vh;
+ 
+}
+
+.nav_admin_logo{
+    height: 19vh;
+    width: 23vh;
+    margin:0 auto;
+    margin-top: 4vh;
+   
+    padding: 1vh;
+    
+    border: solid 2px #FFD000;
+}
+
+.enlace{
+    
+    text-decoration:none;
+    font-style: normal;
+    font-variant-caps:small-caps;
+    
+}

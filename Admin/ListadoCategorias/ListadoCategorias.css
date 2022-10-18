@@ -1,0 +1,260 @@
+.flex-container{
+    width: 65vw;
+    height: 170vh;
+    display: flex;
+    margin-left: 30vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+   
+}
+.enlace{
+    text-decoration: none;
+
+}
+
+.list-body{
+    background-color: #FFD000;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-variant-caps: small-caps;
+}
+
+.list_category_item1{
+    background-image:url('/public/images/ARQUITECTURA/Pieles\ de\ Arquitectura/1.jpg');
+    background-size: 260px 500px;
+    width: 260px;
+    height: 500px;
+    box-shadow: 5px 8px 0px #CBCAC9;
+    text-decoration: none;
+}
+
+.list_category_item2{
+    background-image:url('/public/images/ALIMENTOS/Hamburguesas/FOTO\ H\ \(4\).jpg');
+    background-size: 260px 500px;
+    width: 260px;
+    height: 500px;
+    box-shadow: 5px 8px 0px #CBCAC9;
+    text-decoration: none;
+}
+
+.list_category_item3{
+    background-image:url('/public/images/SOCIAL/Boda/imgboda.jpg');
+    image-rendering:optimizeQuality;
+    background-size:260px 500px;
+    width: 260px;
+    height: 500px;
+    box-shadow: 5px 8px 0px #CBCAC9;
+}
+
+.list_category_item4{
+    background-image:url('/public/images/PRODUCTO/Lociones/locion1.jpg');
+    image-rendering:optimizeQuality;
+    background-size:100% 100% ;
+    width: 260px;
+    height: 500px;
+    
+    box-shadow: 5px 8px 0px #CBCAC9;
+   
+}
+
+
+.list_item_titles1{
+    background-color: #cbcac96c;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-shadow:1px 1px 1px #000000;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    border: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 300;
+    
+
+}
+
+.list_item_titles2{
+    background-color: #cbcac96c;
+   
+    color: #FFFFFF;
+    text-shadow:1px 1px 0px #000000;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    border: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 300;
+
+
+}
+
+
+.list_item_titles3{
+    background-color: #cbcac96c;
+    color: #FFFFFF;
+    text-shadow:1px 1px 1px #000000;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    border: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 300;
+   
+
+}
+
+
+
+
+.list_btn{
+    margin-top: 385px;
+    background-color: #cbcac95f;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_edit{
+    width:40px ;
+    height:40px ;
+    
+}
+
+.btn_delete{
+    width:40px ;
+    height:40px ;
+    margin-right: 10px;
+    
+}
+
+
+
+.list_item_new_category{
+    
+    background-color: #0000004c;
+    color: #FFFFFF;
+    width: 220px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top:20px;
+    margin-right:54vw;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 300;
+
+}
+.linkACrearCategoria{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* incluir estas clases en las hojas de estilos donde se va colocar el navegador*/
+
+.nav_admin_container{
+    background-color:#000000;
+    width: 37vh;
+    margin: 0;
+    top:0;
+    left: 0;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction:column;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+   
+
+}
+
+.nav_admin_i{
+    color: #ffff;
+    display: block;
+    
+    margin-top: 4vh;
+    
+  
+   
+}
+
+.nav_admin_link{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.nav_admin_ul{
+    margin-top: 13vh;
+   
+    margin-right: 3vh;
+ 
+}
+
+.nav_admin_logo{
+    height: 19vh;
+    width: 23vh;
+    margin:0 auto;
+    margin-top: 4vh;
+   
+    padding: 1vh;
+    
+    border: solid 2px #FFD000;
+}
+
+.cerrar{
+    display: block;
+    margin-top:210px;
+ 
+ }
+ 

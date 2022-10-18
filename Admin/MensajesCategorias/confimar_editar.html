@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmar Editar Categoria</title>
+    <link rel="stylesheet" href="categoria.css">
+    <!-- CSS only Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Barra de Navegacion-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body class="categoria">
+    <header>
+        <nav>
+            <div class="nav_admin_container">
+                <img class="nav_admin_logo" src="/public/images/logo.png" alt="logo">
+
+                <ul class="nav_admin_ul">
+                    <i class="nav_admin_i"><a class="nav_admin_link" href="/Admin/Produccion/vistaPrincipalProduccion.html">Producciones</a></i>
+
+                    <i class="nav_admin_i"><a class="nav_admin_link" href="/Admin/ListadoCategorias/ListadoCategorias.html">Categorías</a></i>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="crear_categoria container">
+            <div class="formulario_categoria">
+                <form action="" class="form">
+                    <div class="box_form_categoria">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="edit_categoria" placeholder="¿DESEA EDITAR ESTE ELEMENTO?" readonly>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="footer_form">
+                <div class="d-flex justify-content-between">
+                    <!--Al dar click en guardar se direcciona a la pagina de Home Categorias con la categoria modificada-->
+                    <a href="/Admin/ListadoCategorias/ListadoCategorias.html" class="mt-1 ms-5">
+                        <img class="icon_guardar" src="/public/Iconos/guardar.png " alt="">
+                    </a>
+                    <!--Al dar click en cancelar se direcciona a la pagina de Home Categorias sin cambios en la categoria-->
+                    <a href="/Admin/MensajesCategorias/editar_categoria.html" class="mt-1 me-5">
+                        <img class="icon_cancelar" src="/public/Iconos/cancelar.png " alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- JavaScript Bundle with Popper Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

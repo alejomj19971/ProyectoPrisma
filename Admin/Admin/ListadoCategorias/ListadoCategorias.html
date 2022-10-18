@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <link rel="stylesheet" href="ListadoCategorias.css">
+     <!---Fuentes que es la misma que puede estar en su hoja-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+     <!---fuente-->
+    <title>VistaPrincipalCategorias</title>
+</head>
+<body class="list-body">
+    <!---Aqui empieza-->
+    <header>
+        <nav>
+          
+        <div class="nav_admin_container">
+            <img class="nav_admin_logo" src="/public/images/logo.png" alt="logo">
+
+
+            <ul class="nav_admin_ul">
+                
+                <i class="nav_admin_i"><a class="nav_admin_link" href="/Admin/Produccion/vistaPrincipalProduccion.html">Producciones</a></i>
+               
+                <i class="nav_admin_i"><a class="nav_admin_link" href="/Admin/ListadoCategorias/ListadoCategorias.html">Categorías</a></i>
+
+           <!--   <a class=" cerrar nav_admin_link" href="/Admin/logOut/logOut.html">cerrar Sesión</a>-->  
+              
+            </ul>
+        </div>
+                
+            
+        </nav>
+    </header>
+    <!---Aqui termina-->
+    <div class="list_item_new_category">
+        <a  href="/Admin/MensajesCategorias/crear_categoria.html" class="linkACrearCategoria" > CREAR CATEGORÍA</a>
+    </div>
+    <section class="flex-container">
+        
+        <div class="list_category_item1">
+            <a class="enlace" href="/Admin/Produccion/produccionArquitectura.html"><h4 class="list_item_titles1"> ARQUITECTURA</h4></a>
+            
+            <ul class="list_btn">
+                <a href="/Admin/MensajesCategorias/editar_categoria.html"><img class="btn_edit" src="/public/iconos/editar.png" alt=""></a>
+                <a href="/Admin/MensajesCategorias/confirmar_eliminar.html"><img class="btn_delete" src="/public/iconos/eliminar.png" alt=""></a>
+            </ul>
+            
+        </div>
+
+        <div class="list_category_item2">
+           <a class="enlace" href="/Admin/Produccion/produccionAlimentos.html"><h4 class="list_item_titles2"> COMIDAS</h4></a>
+           
+
+            <ul class="list_btn">
+                <a href="/Admin/MensajesCategorias/editar_categoria.html"><img class="btn_edit" src="/public/iconos/editar.png" alt=""></a>
+                <a href="/Admin/MensajesCategorias/confirmar_eliminar.html"><img class="btn_delete" src="/public/iconos/eliminar.png" alt=""></a>
+            </ul>
+            
+        </div>
+
+        <div class="list_category_item3">
+            <a class="enlace" href="/Admin/Produccion/ProduccionSocial.html"><h4 class="list_item_titles2">SOCIAL</h4></a>
+            
+            <ul class="list_btn">
+                <a href="/Admin/MensajesCategorias/editar_categoria.html"><img class="btn_edit" src="/public/iconos/editar.png" ></a>
+                <a href="/Admin/MensajesCategorias/confirmar_eliminar.html"><img class="btn_delete" src="/public/iconos/eliminar.png" ></a>
+            </ul>
+            
+        </div>
+
+        <div class="list_category_item4">
+            <a class="enlace" href="/Admin/Produccion/produccionProductos.html"><h4 class="list_item_titles2"> PRODUCTOS</h4></a>
+            
+            <ul class="list_btn">
+                <a href="/Admin/MensajesCategorias/editar_categoria.html"><img class="btn_edit" src="/public/iconos/editar.png" ></a>
+                <a href="/Admin/MensajesCategorias/confirmar_eliminar.html"><img class="btn_delete" src="/public/iconos/eliminar.png" ></a>
+            </ul>
+            
+        </div>
+     
+      
+    </section>
+
+
+
+
+</body>
+
+
+
+</html>

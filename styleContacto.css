@@ -1,0 +1,214 @@
+/* navbar and footer */
+
+
+.navbar_comercial {
+    contain: content;
+    position: fixed;
+    overflow: hidden;
+    height: 100vh;
+    width: 20%;
+    background-color: black;
+    top: 0;
+    left: 0;
+}
+
+
+.aside_navbar_comercial {
+    float: right;
+    overflow: hidden;
+    display: block;
+    height: 100vh;
+    width: auto;
+}
+
+
+.logo_navbar {
+    position: relative;
+    justify-items: right;
+    width: 115px;
+    height: 115px;
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #FFD000;
+    padding: 3px;
+    margin-top: 5%;
+    margin-left: 48%;
+
+
+}
+
+.box_navbar {
+    float: right;
+    overflow: hidden;
+    margin-left: 10%;
+    top: 0;
+    margin-top: 10xp;
+    text-align-last: right;
+}
+
+.p1_navbar {
+    font-family: 'Roboto', sans-serif;
+    font-variant: small-caps;
+    font-weight: bolt;
+    font-size: medium;
+    color: #FFD000;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+font,
+span {
+    font-family: 'Roboto', sans-serif;
+    font-variant: small-caps;
+    color: #FFD000;
+}
+
+.ul_navbarC {
+    margin-top: 5%;
+    position: relative;
+    float: left;
+    list-style-type: none;
+    margin-top: 50px;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+}
+
+.li_navbarC,
+.a_navbarC {
+
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-variant: small-caps;
+    font-weight: bolt;
+    font-size: large;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #FFD000;
+
+}
+
+
+.li_navbarC,
+.a_navabarC:hover {
+    background-color: black;
+    color: #FFD000;
+}
+
+.a_navabarC:link {
+    text-decoration: none;
+
+}
+
+.footer_comercial {
+    background-color: rgba(0, 0, 0, 0.0);
+    position: fixed;
+    display: flex;
+    overflow: auto;
+    bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 18%;
+    height: 12vh;
+}
+
+.incono_footer {
+    width: 40px;
+
+
+}
+
+.iconbox_footer {
+    position: absolute;
+    bottom: 0;
+    margin-top: 100px;
+}
+
+.copy_footer {
+    bottom: 0;
+    margin: 0;
+    position: absolute;
+    color: #FFD000;
+    font-size: x-small;
+
+}
+
+/*portafolio - VISTAS CONTACTO*/
+
+.main_contacto {
+    position: absolute;
+    overflow: auto;
+    top: 0;
+    left: 265px;
+    justify-items: center;
+    height: 100vh;
+    width: 80%;
+    margin-left: 0.5%;
+}
+
+.contacto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr 30%);
+    gap: 10px;
+    grid-auto-rows: minmax(250 500);
+    grid-auto-flow: dense
+}
+
+.imagen_contacto {
+    margin-left: 30%;
+    margin-top: 70%;
+    width: 100%;
+    
+}
+
+
+.text_contacto {
+    display: inline-flex;
+    font-family: 'Roboto', sans-serif;
+    font-variant: small-caps;
+    font-size: 20px;
+    color: white;
+    right: 0;
+    margin-left: 150px;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+.contacto_1 {
+    grid-column: 1/2;
+    grid-row: 1;
+    background: #FFD000;
+    height: 100vh;
+    width: 170%;
+}
+
+.contacto_2 {
+    grid-column: 2/2;
+    grid-row: 1;
+    width: 100%;
+    width: 100%;
+}
+
+input{
+    background: inherit;
+    background-color: transparent;
+    border:0;
+    border-bottom: 0.5px solid gray;
+}
+
+.box_one{
+    columns: 2;
+    column-width: 20px;
+    column-gap: 0%;
+}
+
+.mini_box{
+    display: inline-block;
+    width: fit-content;
+}
